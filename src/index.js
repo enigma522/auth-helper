@@ -8,7 +8,8 @@ function validateEmail(email) {
     const crypto = require('crypto');
     return crypto.createHash('sha256').update(password).digest('hex');
   }
-  
+  // you did it 
+  // now you just need to take a look at the github source code
   // Export functions
   module.exports = {
     validateEmail,
